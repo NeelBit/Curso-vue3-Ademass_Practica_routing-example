@@ -1,5 +1,10 @@
 # routing-example
 
+![Captura de pantalla qr-generator en vue3](https://github.com/NeelBit/Curso-vue3-Ademass_Practica_routing-example/blob/master/assets/cap_qr-generator.jpg)
+
+![captura de pantalla practica de sass en un proyecto de vue 3](https://github.com/NeelBit/Curso-vue3-Ademass_Practica_routing-example/blob/master/assets/cap_practica-SASS.jpg)
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
