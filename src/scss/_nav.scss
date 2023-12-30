@@ -1,0 +1,55 @@
+@use 'mixins';
+/* incluir use y respetar la forma, en componentes no es necesario */
+
+.nav {
+
+    background-color: $color-bg;
+
+    &__container {
+
+        width: 90%;
+
+        margin: 0 auto;
+        padding: $separacion;
+
+        @include mixins.crearFlexboxCenter();
+
+        gap: $separacion;
+
+        flex-direction: column;
+    }
+
+    &__item {
+
+        padding: 3px;
+        transition: all .5s ease-in-out;
+
+        border: 1px $color-alternative solid;
+        border-radius: $redondeo;
+
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+            box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        }
+
+        &:active {
+            text-decoration: underline;
+        }
+    }
+
+    @media (min-width: 480px) {
+        &__container {
+            height: 5rem;
+            flex-direction: row;
+        }
+    }
+
+    @media (min-width: 1025px) {
+        &__container {
+            justify-content: flex-end;
+        }
+    }
+
+}

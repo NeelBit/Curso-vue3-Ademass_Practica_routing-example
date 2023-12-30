@@ -1,0 +1,15 @@
+@mixin crearFlexboxCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin arreglarImgBackground {
+    background: {
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }
+
+    ;
+}
